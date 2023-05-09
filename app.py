@@ -9,3 +9,7 @@ def index():
 @app.route("/greet")
 def greet():
     return "<p>How are you?</p>"
+
+@app.route("/knock-knock")
+def knock_knock():
+    return "<p>Who's there?</p>"
